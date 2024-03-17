@@ -14,7 +14,8 @@ const books = [
   { title: 'Book 3', author: 'Author 3', year: 2022 },
   // Add more books if you'd like
 ];
-Render the list of books in the BookList component. Each book should be displayed as a separate list item (<li> element) with the book's title, author, and year.
+
+Render the list of books in the BookList component. Each book should be displayed as a separate list item with the book's title, author, and year.
 
 Create a new component called App that will serve as the entry point of your application.
 
@@ -46,23 +47,5 @@ Update the BookList component to use the Book component for rendering each book 
 
 Verify that the application still displays the list of books correctly, with each book's details rendered using the Book component.
 
-As a bonus task, add CSS styles to the Book component or any other component of your choice to enhance the visual presentation of the book list.
-
 Make sure to utilize JSX syntax, component composition, and props effectively to accomplish the given tasks. Test the application by running the React development server and ensuring that the book list is rendered with the correct book details and any added styles are applied appropriately.
- # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
